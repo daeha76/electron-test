@@ -21,8 +21,8 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Install Windows Build Tools
-        run: npm install --global windows-build-tools
+      - name: Install node-gyp
+        run: npm install -g node-gyp
 
       - name: Build Electron app
         run: npm run make
