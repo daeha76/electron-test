@@ -23,7 +23,7 @@ const config: ForgeConfig = {
   publishers: [
     new PublisherGithub({
       repository: { owner: "daeha76", name: "electron-test" },
-      draft: true,
+      draft: false,
       prerelease: false,
     }),
   ],
