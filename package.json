@@ -1,7 +1,7 @@
 {
   "name": "data-from-info21c",
   "productName": "data-from-info21c",
-  "version": "1.0.3.7",
+  "version": "1.0.4-beta.1",
   "description": "My Electron application description",
   "main": ".webpack/main",
   "scripts": {
@@ -43,6 +43,7 @@
   },
   "license": "MIT",
   "dependencies": {
+    "dotenv": "^16.4.5",
     "electron-log": "^5.1.5",
     "electron-squirrel-startup": "^1.0.1"
   }

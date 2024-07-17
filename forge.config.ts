@@ -11,6 +11,9 @@ import { PublisherGithub } from "@electron-forge/publisher-github";
 
 import { mainConfig } from "./webpack.main.config";
 import { rendererConfig } from "./webpack.renderer.config";
+import * as dotenv from "dotenv";
+
+dotenv.config();
 
 const config: ForgeConfig = {
   packagerConfig: {
