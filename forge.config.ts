@@ -19,8 +19,8 @@ const config: ForgeConfig = {
   rebuildConfig: {},
   publishers: [
     new PublisherGithub({
-      repository: { owner: "daeha76", name: "data-from-info21c" },
-      draft: false,
+      repository: { owner: "daeha76", name: "electron-test" },
+      draft: true,
       prerelease: false,
     }),
   ],
