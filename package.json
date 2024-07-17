@@ -1,7 +1,7 @@
 {
   "name": "data-from-info21c",
   "productName": "data-from-info21c",
-  "version": "1.0.3",
+  "version": "1.0.3.7",
   "description": "My Electron application description",
   "main": ".webpack/main",
   "scripts": {
